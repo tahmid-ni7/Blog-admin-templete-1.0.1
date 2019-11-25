@@ -1,2 +1,3 @@
-# Blog-admin-templete-1.0.1
- This is a blog admin templete
+# Blog-admin-templete
+ This is a blog admin templete. Simple and cool design. This templete is full responsive.
+ 
