@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-sm navbar-light p-1">
             <div class="container">
                 <a href="index.html" class="navbar-brand"><span>Blog</span> Admin</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -58,71 +58,55 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="login.html" class="nav-link">
+                            <a href="login.htmk" class="nav-link">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav>
         <!-- HEADER -->
-        <header class="py-2 indigo text-white">
+        <header class="py-2 success-color-dark text-white">
             <div class="container">
-                <h2><i class="fas fa-pencil-alt"></i> Create new post</h2>
+                <h2 class="text-center"><i class="fas fa-user"></i> Login here</h2>
             </div>
         </header>
-
-        <section class="form-section py-4">
+        <section id="actions" class="py-4 mb-4 grey lighten-5">
+            <div class="container">
+            </div>
+        </section>
+        <section class="login-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
-                        <div class="card">
-                            <div class="card-header indigo text-white">
-                                <h4>Post create form</h4>
-                            </div>
-                            <div class="card-body">
-                                <form action="#">
-                                    <div class="form-group">
-                                        <label for="">Title</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Slug</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Category</label>
-                                        <select class="form-control">
-                                            <option value="">Web development</option>
-                                            <option value="">Web design</option>
-                                            <option value="">Social Marketing</option>
-                                            <option value="">UX/UI Design</option>
-                                            <option value="">Other</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="image">Post image</label>
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input">
-                                            <label for="image" class="custom-file-label">Choose image</label>
-                                        </div>
-                                        <small class="text-muted">Max size 1MB</small>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Description</label>
-                                        <textarea name="editor1" id="" cols="30" rows="5" class="form-control"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button class="btn btn-indigo">Create post</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="col-md-4 mx-auto">
+                       <div class="card">
+                           <div class="card-header">
+                               <h4>Account Login</h4>
+                           </div>
+                           <div class="card-body">
+                               <form action="index.html">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control">
+                                    <small><a href="#" class="text-muted">Forget password</a></small>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-dark-green btn-block btn-md">Login</button>
+                                </div>
+                               </form>
+                               <small>Don't have an account? <a href="#">Register here</a></small>
+                           </div>
+                       </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <footer class="py-3 text-center">
             <div class="container">
@@ -137,12 +121,13 @@
                         <a href="https://github.com/tahmid-ni7"><i class="fab fa-github"></i></a>
                     </span>
                     <span class="mr-2">
-                        <a href="https://stackoverflow.com/users/11026749/tahmid-ni7"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="https://stackoverflow.com/users/11026749/tahmid-ni7"><i
+                                class="fab fa-stack-overflow"></i></a>
                     </span>
                 </div>
             </div>
         </footer>
-        
+
         <!-- End your project here-->
 
         <!-- jQuery -->
