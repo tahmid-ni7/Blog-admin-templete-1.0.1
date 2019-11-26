@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dashboard - Admin dashboard</title>
+        <!-- MDB icon -->
+        <link rel="icon" href="img/favicon-2.png" type="image/x-icon">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <!-- Start your project here-->
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-light p-1">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><span>Blog</span> Admin</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a href="index.html" class="nav-link">Dashboard</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="posts.html" class="nav-link">Posts</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="categories.html" class="nav-link">Categories</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="users.html" class="nav-link">Users</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown mr-3">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-user"></i> Welcome Tahmid
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="profile.html" class="dropdown-item">
+                                    <i class="fas fa-user"></i> Profile
+                                </a>
+                                <a href="settings.html"" class=" dropdown-item">
+                                    <i class="fas fa-cog"></i> Settings
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- HEADER -->
+        <header class="py-2 indigo text-white">
+            <div class="container">
+                <h2>Edit profile</h2>
+            </div>
+        </header>
+
+        <!-- ACTIONS -->
+        <div id="actions" class="py-4 mb-4 grey lighten-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-1">
+                        <a href="index.html" class="text-muted"><i class="fas fa-arrow-left"></i> Back to dashboard</a>
+                    </div>
+                    <div class="col-md-3 mb-1">
+                        <a href="#" class="btn btn-dark-green btn-block btn-md"><i class="fas fa-lock"></i> Change password</a>
+                    </div>
+                    <div class="col-md-3 mb-1">
+                        <a href="#" class="btn btn-unique btn-block btn-md"><i class="fas fa-trash"></i>
+                            Delete account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="post-details py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Edit profile</h4>
+                            </div>
+                            <div class="card-body">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="">Name</label>
+                                        <input type="text" class="form-control" value="Tahmid Nishat">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Email</label>
+                                        <input type="text" class="form-control" value="tahmid.ni7@gmail.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Bio</label>
+                                        <textarea name="editor1" id="" cols="30" rows="5"
+                                            class="form-control">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis omnis voluptatem consequatur nam tempora quibusdam animi inventore recusandae, architecto doloremque hic cumque alias illum necessitatibus corrupti dolorem, ab placeat.</textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Your avatar</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/PP4.2.jpg" alt="" class="d-block" width="100%">
+                                <button class="btn btn-indigo btn-block btn-md my-2">Change image</button>
+                                <button class="btn btn-unique btn-block btn-md my-2">Delete image</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-3 text-center">
+            <div class="container">
+                <div class="footer-text">
+                    Copyright &copy; tahmid-ni7 - <span id="year"></span>
+                </div>
+                <div class="social-icon">
+                    <span class="mr-2">
+                        <a href="https://www.facebook.com/iamTahmid.ni7"><i class="fab fa-facebook"></i></a>
+                    </span>
+                    <span class="mr-2">
+                        <a href="https://github.com/tahmid-ni7"><i class="fab fa-github"></i></a>
+                    </span>
+                    <span class="mr-2">
+                        <a href="https://stackoverflow.com/users/11026749/tahmid-ni7"><i
+                                class="fab fa-stack-overflow"></i></a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <!-- End your project here-->
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- CK editor CDN -->
+        <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+        <!-- Your custom scripts (optional) -->
+        <script type="text/javascript" src="js/script.js"></script>
+
+    </body>
+
+</html>

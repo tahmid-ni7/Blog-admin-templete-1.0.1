@@ -12,6 +12,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 80px;
 }
+.btn
+{
+    text-transform: capitalize!important;
+    font-size: 12px!important;
+}
 /* Sticky footer */
 html {
   position: relative;
